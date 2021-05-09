@@ -1,6 +1,6 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
+title: 独摇草
+logo: /assets/img/castle_icon.jpg
+description: 一个练习写作的小站
+show_map: True
 google_analytics:
 theme: jekyll-theme-minimal

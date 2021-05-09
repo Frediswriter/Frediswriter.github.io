@@ -30,17 +30,20 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
-        {% if site.show_downloads %}
+        {% if site.show_map %}
         <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+          <li><a href="{{ site.github.NewStory }}">New story <strong>新的故事</strong></a></li>
+          <li><a href="{{ site.github.Album }}">Memory <strong>旧的回忆</strong></a></li>
+          <li><a href="{{ site.github.repository_url }}">Inventory <strong>杂项</strong></a></li>
         </ul>
         {% endif %}
+
+        <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=vCc1wWA2j7wHv8NhUSGx_zt5sgiqK0o2IqX4qKORA48&co=5298c9&cmo=e39726&cmn=ff5353&ct=191717"></script>
+      
       </header>
       <section>
 
-      {{ content }}
+       {{ content }}
 
       </section>
       <footer>
